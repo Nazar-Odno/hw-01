@@ -6,176 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-    <body>
-      <!-- Шапка страницы -->
-      <header class="menu-header">
-        <!-- Меню навигации на следующие страницы -->
-        <nav class="main-nav">
-          <a class="main-logo link" lang="en" href="/">WebStudio</a>
-          <ul class="main-nav-items list">
-            <li class="nav-item">
-              <a class="nav-link link" href="/Студия">Студия</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link" href="/Портфолио">Портфолио</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link" href="/Контакты">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="contact-items list">
-          <li class="contact-item">
-            <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+  <body>
+    <!-- Header -->
+    <header>
+      <header>
+        <a href="./index.html"
+          ><img src="./images/logo.svg" width="145" alt="логотип"
+        /></a>
+
+        <ul>
+          <li><a href="">Студия</a></li>
+          <li><a href="">Портфолио</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="">info@devstudio.com</a></li>
+          <li><a href="">+38 096 111 11 11</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- основной блок с переходом на заказ услуг -->
+      <section>
+        <h1>Эффективные решения для вашего бизнеса</h1>
+        <a href="/">Заказать услугу</a>
+      </section>
+
+      <!-- Преимущества -->
+      <section>
+        <ul>
+          <li>
+            <h2>Внимание к деталям</h2>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
           </li>
-          <li class="contact-item">
-            <a class="contact-link" href="tel:+380961111111">+380961111111</a>
+          <li>
+            <h2>Пунктуальность</h2>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li>
+            <h2>Планирование</h2>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li>
+            <h2>Современные технологии</h2>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
           </li>
         </ul>
-      </header>
-      <!-- Уникальный контент страницы -->
-      <main class="main-content">
-        <!-- Секция Герой -->
-        <section class="hero">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="btn-hero module-btn-hero" type="button">Заказать услугу</button>
-        </section>
-        <!-- Секция особености команды разработчиков -->
-        <section class="section skils">
-          <h2 class="skils-hidden">Галерея работ</h2>
-          <ul class="skils-items list">
-            <li class="skils-item">
-              <h3 class="subtitle-skils">Внимание к деталям</h3>
-              <p class="text-skils">
-                Идейные соображения, а также начало повседневной работы по формированию позиции.
-              </p>
-            </li>
-            <li class="skils-item">
-              <h3 class="subtitle-skils">Пунктуальность</h3>
-              <p class="text-skils">
-                Задача организации, в особенности же рамки и место обучения кадров влечет за собой
-              </p>
-            </li>
-            <li class="skils-item">
-              <h3 class="subtitle-skils">Планирование</h3>
-              <p class="text-skils">
-                Равным образом консультация с широким активом в значительной степени обуславливает.
-              </p>
-            </li>
-            <li class="skils-item">
-              <h3 class="subtitle-skils">Современные технологии</h3>
-              <p class="text-skils">
-                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-              </p>
-            </li>
-          </ul>
-        </section>
-        <!-- Секция галерея  -->
-        <section class="section gallery">
-          <h2 class="gallery-title">Чем мы занимаемся</h2>
-          <ul class="gallery-items list">
-            <li class="gallery-item">
-              <img
-                class="gallery-image"
-                src="./images/img1.jpg"
-                alt="Набор текста на планшете"
-                width="370"
-                height="294"
-              />
-            </li>
-            <li class="gallery-item">
-              <img
-                class="gallery-image"
-                src="./images/img2.jpg"
-                alt="Экран ноутбука с макетами телефона"
-                width="370"
-                height="294"
-              />
-            </li>
-            <li class="gallery-item">
-              <img
-                class="gallery-image"
-                src="./images/img3.jpg"
-                alt="планшет с выбором цвета"
-                width="370"
-                height="294"
-              />
-            </li>
-          </ul>
-        </section>
-        <!-- Секция нашей команды -->
-        <section class="section teams">
-          <h2 class="title-teams">Наша команда</h2>
-          <ul class="teams-items list">
-            <li class="teams-item">
-              <img
-                class="teams-image"
-                src="./images/our_team/product_Designer.jpg"
-                alt="foto Product Designer"
-                width="270"
-                height="260"
-              />
-              <h3 class="subtitle-teams">Игорь Демьяненко</h3>
-              <p class="teams-text" lang="en">Product Designer</p>
-            </li>
-            <li class="teams-item">
-              <img
-                class="teams-image"
-                src="./images/our_team/frontend_developer.jpg"
-                alt="foto frontend_developer"
-                width="270"
-                height="260"
-              />
-              <h3 class="subtitle-teams">Ольга Репина</h3>
-              <p class="teams-text" lang="en">Frontend Developer</p>
-            </li>
-            <li class="teams-item">
-              <img
-                class="teams-image"
-                src="./images/our_team/marketing.jpg"
-                alt="foto marketing"
-                width="270"
-                height="260"
-              />
-              <h3 class="subtitle-teams">Николай Тарасов</h3>
-              <p class="teams-text" lang="en">Marketing</p>
-            </li>
-            <li class="teams-item">
-              <img
-                class="teams-image"
-                src="./images/our_team/ui_designer.jpg"
-                alt="foto ui_designer"
-                width="270"
-                height="260"
-              />
-              <h3 class="subtitle-teams">Михаил Ермаков</h3>
-              <p class="teams-text" lang="en">UI Designer</p>
-            </li>
-          </ul>
-        </section>
-      </main>
-      <!-- Подвал страницы -->
-      <footer class="main-footer">
-        <a class="main-logo link" lang="en" href="WebStudio"></a>
-        <address class="address">
-          <ul class="address-items list">
-            <li class="address-item">
-              <a
-                class="address-contact link"
-                href="https://goo.gl/maps/Bq6WexbLNgEqduPN9"
-                target="_blank"
-                rel="noopener noreferrer"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
-            </li>
-            <li class="address-item">
-              <a class="address-contact link" href="mailto:info@example.com">info@example.com</a>
-            </li>
-            <li class="address-item">
-              <a class="address-contact link" href="tel:+380991111111">+380991111111</a>
-            </li>
-          </ul>
-        </address>
-      </footer>
-    </body>
+      </section>
+
+      <!-- Напрвления деятельности -->
+      <section>
+        <h2>Чем мы занимаемся</h2>
+        <ul>
+          <li>
+            <img src="./images/work_1.png" width="370" alt="пример работы 1" />
+          </li>
+          <li>
+            <img src="./images/work_2.png" width="370" alt="пример работы 2" />
+          </img>
+          <li>
+            <img src="./images/work_3.png" width="370" alt="пример работы 3" />
+          </img>
+        </ul>
+      </section>
+
+      <!-- Камманда -->
+      <section>
+        <h2>Наша команда</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/designer.jpg"
+              width="270"
+              alt="Игорь Демьяненко"
+            />
+            <h3>Игорь Демьяненко</h3>
+            <p>Product Designer</p>
+          </li>
+          <li>
+            <img src="./images/developer.jpg" width="270" alt="Ольга Репина" />
+            <h3>Ольга Репина</h3>
+            <p>Frontend Developer</p>
+          </img>
+          <li>
+            <img
+              src="./images/marketing.jpg"
+              width="270"
+              alt="Николай Тарасов"
+            />
+            <h3>Николай Тарасов</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/ui_designer.jpg"
+              width="270"
+              alt="Михаил Ермаков"
+            />
+            <h3>Михаил Ермаков</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <!-- Координаты и как связаться -->
+    <footer>
+      <a href="/"><img src="./images/logo.svg" width="145" alt="логотип" /></a>
+      <address>
+        г. Киев, пр-т Леси Украинки, 26<br />
+        <a href="mailto:info@example.com">info@example.com</a><br />
+        <a href="tel:+380991111111">+38 099 111 11 11</a><br />
+      </address>
+    </footer>
+  </body>
 </html>
